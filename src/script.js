@@ -26,3 +26,7 @@ const getObjectsOfPowers = (object, exponent) => {
         ...acumulator, [currentValue[0]]: Math.pow(currentValue[1], exponent)
     }), {})
 }
+const getIndexOfSmallestNumer = (array) => {
+    return indexOfSmallestNumer = Math.min(...array);
+}
+console.log(getIndexOfSmallestNumer(amongus));
